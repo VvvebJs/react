@@ -1,0 +1,35 @@
+{
+  "name": "@vvvebjs/react",
+  "version": "0.0.4",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "main": "./index.js",
+  "module": "./index.js",
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VvvebJs/react.git"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "build-watch": "vite build --watch",
+    "preview": "vite preview"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "vvvebjs": "^2.0.7",
+    "react": "^19.0.0"
+  },
+  "dependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0"
+  }
+}
